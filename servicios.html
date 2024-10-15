@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ElectroStation | Nosotros</title>
+    <link rel="stylesheet" href="./src/styles-h&f.css">
     <link rel="stylesheet" href="./src/stylesServicios.css">
 </head>
 <body>
@@ -15,9 +16,9 @@
                 <img src="./img/extra_logo.png">
             </div>
             <ul class="nav-links">
-                <li><a href="/nosotros.html" target="_blank">NOSOTROS</a></li>
-                <li><a href="/servicios.html" target="_blank">SERVICIOS</a></li>
-                <li><a href="/contactanos.html" target="_blank">CONTÁCTANOS</a></li>
+                <li><a href="/nosotros.html">NOSOTROS</a></li>
+                <li><a href="/servicios.html">SERVICIOS</a></li>
+                <li><a href="/contactanos.html">CONTÁCTANOS</a></li>
             </ul>
         </nav>
         <h1>SERVICIOS DE CALIDAD</h1>
@@ -27,8 +28,7 @@
         <div class="carousel">
             <div class="carrusel-list" id="carrusel-list">
     
-                <button class="carrusel-arrow carrusel-prev" id="button-prev" data-button="button-prev"
-                    onclick="app.processingButton(event)">
+                <button class="carrusel-arrow carrusel-prev" id="button-prev" data-button="button-prev">
                     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left"
                         class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 320 512">
@@ -119,7 +119,15 @@
         </div>
     </header>
     <footer>
-        Copyright &copy; 2024 ElectroStation. Todos los derechos reservados.
+        <div class="footer-content">
+            <p>Copyright © 2024 ElectroStation. Todos los derechos reservados.</p>
+            <div class="social-media">
+                <span>Visita nuestra redes:</span>
+                <a href="#"><img src="./img/icon_facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="./img/icon_instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="./img/icon_twitter.png" alt="Twitter"></a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

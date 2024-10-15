@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 #banner-container {
     height: 330px;
@@ -79,7 +79,6 @@
     overflow: hidden;
 }
 
-
 .new-img-container {
     position: absolute;
     top: 320px;
@@ -118,4 +117,30 @@
 
 .container-img img:hover{
     transform: scale(1.1);
+}
+
+/* media query */
+
+@media (max-device-width:768px) {
+    #title-page {
+        font-family: "Kanit", "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 30px;
+    }
+
+    #slogan {
+        font-size: 15px;
+        padding: 5px 0px;
+    }
+
+    .banner-img img{
+        padding: auto;
+        width: 300px;
+    }
+    .new-img-container img {
+        width: 300px;
+        height: 250px;
+        transition: 0.3s;
+    }
 }

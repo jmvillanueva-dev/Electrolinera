@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', Courier, monospace;
+}
+
+body{
+    background-color: none;
+}
+
+/* Inicio estilos 'Barra de Navegación' */
+.navbar{
+    background-color: #EFFDFD;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 5px 10%;
+    border-bottom: 1px solid #ddd;
+    font-size: 20px;
+}
+
+.navbar .logo{
+    cursor: pointer;
+}
+
+.navbar .logo a{
+    list-style: none;
+    text-decoration: none;
+    color: #4C4545;
+    font-family: "Kanit", "Montserrat", sans-serif;
+    font-size: 25px;
+}
+
+.highlight {
+    color: #37F29B;
+    font-weight: bold;
+}
+
+.navbar .logo img{
+    height: 55px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo img:hover{
+    transform: scale(1.2);
+}
+
+.navbar .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.navbar .nav-links li a{
+    font-family: "Kanit", "Montserrat", sans-serif;
+    text-decoration: none;
+    color: #4C4545;
+    transition: all 0.3s ease 0s;
+}
+
+.navbar .nav-links li a:hover{
+    transform: scale(1.1);
+    font-weight: bold;
+    color: #37F29B ;
+    text-decoration: underline #37F29B;
+    transition: text-decoration 0.3s;
+}
+/* Fin estilos 'Barra de Navegación' */
+
+/* Inicio estilos 'Footer' */
+footer {
+    background-color: #EFFDFD;
+    padding: 2px 0;
+    border-top: 1px solid #ddd;
+    font-size: 11px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 10%;
+}
+
+footer p {
+    bottom: 0;
+    margin: 0;
+    color: #333;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-media img {
+    width: 22px;
+    height: 22px;
+}
+
+.social-media img:hover {
+    transform: scale(1.1);
+}
+
+.social-media span {
+    color: #333;
+}
+/* Fin estilos 'Footer' */

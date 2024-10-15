@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;600;700&display=swap');
+
+
+#banner-container {
+    height: 330px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 20px 5%;
+    background-image: linear-gradient(
+        to left, 
+        rgb(62, 152, 108), 
+        rgb(89, 222, 160),
+        rgb(62,152,108),
+        rgb(0,0,0) );
+}
+
+.banner-text {
+    float: left;
+    padding: 0% 4%;
+    width: 50%;
+    color: #EFFDFD;
+    font-family: "Montserrat", sans-serif;
+    margin: 20px;
+}
+
+.banner-img{
+    position: absolute;
+    left: 46%;
+    top: 7%;
+    width: 50%;
+}
+
+#title-page {
+    font-family: "Kanit", "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 48px;
+}
+
+#slogan {
+    font-size: 21.2px;
+    padding: 5px 0px;
+}
+.container-btn{
+    width: 80%;
+    margin: 10px;
+    text-align: center;
+}
+
+.banner-text .btn button{
+    border-style: none;
+    cursor: pointer;
+    width: 160px;
+    height: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    margin: 10px 20px;
+    padding: 8px 20px;
+    color: #453D3D;
+    border-radius: 20px;
+}
+
+.banner-text .btn button:hover{
+    color: #EFFDFD;
+    background-color: #37F29B;
+    padding: 8px 20px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.banner-img img{
+    padding: auto;
+    width: 700px;
+}
+
+#news-container {
+    height: 300px;
+    overflow: hidden;
+}
+
+
+.new-img-container {
+    position: absolute;
+    top: 320px;
+    width: 50%;
+    padding: 0% 10%;
+}
+
+.new-img-container img {
+    width: 560px;
+    height: 380px;
+}
+
+.new-text-container {
+    float: right;
+    font-family: "Montserrat", sans-serif;  
+    font-size: 25px;
+    width: 50%;
+    padding: 2% 16% 2% 9%;
+}
+
+.new-text-container p {
+    margin: 8px 0px;
+}
+
+.container-img {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    padding: 0px 0px;  
+}
+
+.container-img img{
+    cursor: pointer;
+    margin: 0px 10px;
+}
+
+.container-img img:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroStation | Nosotros</title>
+    <link rel="stylesheet" href="./src/stylesContactanos.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"> 
+                <img src="./img/logo_empresa.png" alt="logo_empresa">
+                <a href="index.html">Electro<span class="highlight">Station</span></a>
+                <img src="./img/extra_logo.png">
+            </div>
+            <ul class="nav-links">
+                <li><a href="/nosotros.html" target="_blank">NOSOTROS</a></li>
+                <li><a href="/servicios.html" target="_blank">SERVICIOS</a></li>
+                <li><a href="/contactanos.html" target="_blank">CONTÁCTANOS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contact-container">
+        <div class="additional-info">
+            <h2>Información Adicional</h2>
+            <label for="atencion_cliente">Atención al Cliente:</label>
+            <input type="text" id="atencion_cliente" name="atencion_cliente" value="Llámanos al 123-456-7890" readonly>
+            <label for="telefonos">Teléfonos:</label>
+            <input type="text" id="telefonos" name="telefonos" value="123-456-7890" readonly>
+            <label for="comentarios">Comentarios:</label>
+            <textarea id="comentarios" name="comentarios" rows="4" placeholder="Escriba sus comentarios aquí..."></textarea>
+        </div>
+
+        <form class="contact-form">
+            <h2>Contacto</h2>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" required>
+            <button type="submit">Enviar</button>
+            <button type="button" onclick="window.location.href='index.html'">Cancelar</button>
+        </form>
+    </div>
+    <div class="media-container">
+        <div class="calendar-container">
+            <img src="./img/Calendario.png" alt="Calendario" class="calendar-image">
+        </div>
+        <div class="map-container">
+            <img src="./img/mapa_full.png" alt="Mapa" class="map-image">
+        </div>
+    </div>
+    <footer>
+        Copyright &copy; 2024 ElectroStation. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
